@@ -1,0 +1,307 @@
+[2022-06-17T23:03:33.732] [DEBUG] szfcweb - [
+  { href: undefined, title: undefined },
+  { href: undefined, title: undefined },
+  { href: undefined, title: undefined }
+]
+[2022-06-17T23:04:19.204] [DEBUG] szfcweb - [
+  { href: undefined, title: undefined },
+  { href: undefined, title: undefined },
+  { href: undefined, title: undefined }
+]
+[2022-06-17T23:05:57.368] [DEBUG] szfcweb - [
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(wp5uuqq22hmkkhuei50bzi01))/DataSerach/SaleInfoBudingShow.aspx?SPJ_ID=b040951a-3028-4b95-b6a2-439e019d013e',
+    title: '春风南岸花园一期'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(wp5uuqq22hmkkhuei50bzi01))/DataSerach/SaleInfoBudingShow.aspx?SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+    title: '春风南岸花园三期'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(wp5uuqq22hmkkhuei50bzi01))/DataSerach/SaleInfoBudingShow.aspx?SPJ_ID=4e5947bb-75a9-4a09-8167-291c7d16a3e2',
+    title: '春风南岸花园二期'
+  }
+]
+[2022-06-17T23:10:26.566] [DEBUG] szfcweb - [
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(rxg4qyvrdhx40agnzbhzlwcb))/DataSerach/SaleInfoBudingShow.aspx?SPJ_ID=b040951a-3028-4b95-b6a2-439e019d013e',
+    title: '春风南岸花园一期'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(rxg4qyvrdhx40agnzbhzlwcb))/DataSerach/SaleInfoBudingShow.aspx?SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+    title: '春风南岸花园三期'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(rxg4qyvrdhx40agnzbhzlwcb))/DataSerach/SaleInfoBudingShow.aspx?SPJ_ID=4e5947bb-75a9-4a09-8167-291c7d16a3e2',
+    title: '春风南岸花园二期'
+  }
+]
+[2022-06-17T23:10:47.028] [DEBUG] szfcweb - [
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(er4xj4v44db4qdtmcrnvodbd))/DataSerach/SaleInfoBudingShow.aspx?SPJ_ID=b040951a-3028-4b95-b6a2-439e019d013e',
+    title: '春风南岸花园一期'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(er4xj4v44db4qdtmcrnvodbd))/DataSerach/SaleInfoBudingShow.aspx?SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+    title: '春风南岸花园三期'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(er4xj4v44db4qdtmcrnvodbd))/DataSerach/SaleInfoBudingShow.aspx?SPJ_ID=4e5947bb-75a9-4a09-8167-291c7d16a3e2',
+    title: '春风南岸花园二期'
+  }
+]
+[2022-06-17T23:11:03.559] [DEBUG] szfcweb - 3
+[2022-06-17T23:11:16.574] [DEBUG] szfcweb - {
+  href: 'http://spf.szfcweb.com/szfcweb/(S(ndxylxielcbj55b2020x5k5b))/DataSerach/SaleInfoBudingShow.aspx?SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+  title: '春风南岸花园三期'
+}
+[2022-06-17T23:12:14.708] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:12:14.858] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-17T23:12:14.982] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-17T23:14:10.334] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:14:10.336] [DEBUG] szfcweb - Sleep: 2688 ms
+[2022-06-17T23:14:13.179] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-17T23:14:13.180] [DEBUG] szfcweb - Sleep: 3674 ms
+[2022-06-17T23:14:17.139] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-17T23:14:17.140] [DEBUG] szfcweb - Sleep: 2074 ms
+[2022-06-17T23:15:13.219] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:15:13.221] [DEBUG] szfcweb - Sleep: 6375 ms
+[2022-06-17T23:15:19.854] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-17T23:15:19.855] [DEBUG] szfcweb - Sleep: 5171 ms
+[2022-06-17T23:15:25.267] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-17T23:15:25.267] [DEBUG] szfcweb - Sleep: 7144 ms
+[2022-06-17T23:17:25.150] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:17:25.159] [DEBUG] szfcweb - Sleep: 7944 ms
+[2022-06-17T23:18:40.474] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:18:40.476] [DEBUG] szfcweb - Sleep: 6946 ms
+[2022-06-17T23:18:47.675] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-17T23:18:47.676] [DEBUG] szfcweb - Sleep: 5220 ms
+[2022-06-17T23:18:53.161] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-17T23:18:53.161] [DEBUG] szfcweb - Sleep: 5864 ms
+[2022-06-17T23:20:07.855] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:20:07.858] [DEBUG] szfcweb - Sleep: 5797 ms
+[2022-06-17T23:20:13.919] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-17T23:20:13.920] [DEBUG] szfcweb - Sleep: 5888 ms
+[2022-06-17T23:20:19.919] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-17T23:20:19.920] [DEBUG] szfcweb - Sleep: 5300 ms
+[2022-06-17T23:24:14.285] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:24:14.288] [DEBUG] szfcweb - Sleep: 2959 ms
+[2022-06-17T23:24:17.353] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-17T23:24:17.354] [DEBUG] szfcweb - Sleep: 3558 ms
+[2022-06-17T23:24:21.037] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-17T23:24:21.037] [DEBUG] szfcweb - Sleep: 2190 ms
+[2022-06-17T23:25:37.903] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:25:37.905] [DEBUG] szfcweb - Sleep: 3099 ms
+[2022-06-17T23:25:41.279] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-17T23:25:41.280] [DEBUG] szfcweb - Sleep: 3980 ms
+[2022-06-17T23:25:45.572] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-17T23:25:45.573] [DEBUG] szfcweb - Sleep: 2316 ms
+[2022-06-17T23:42:50.021] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:42:50.023] [DEBUG] szfcweb - Sleep: 3491 ms
+[2022-06-17T23:43:36.875] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:43:36.878] [DEBUG] szfcweb - Sleep: 3366 ms
+[2022-06-17T23:43:58.222] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:43:58.224] [DEBUG] szfcweb - Sleep: 3903 ms
+[2022-06-17T23:44:02.252] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-17T23:44:02.252] [DEBUG] szfcweb - Sleep: 2190 ms
+[2022-06-17T23:44:04.545] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-17T23:44:04.546] [DEBUG] szfcweb - Sleep: 4050 ms
+[2022-06-17T23:46:13.742] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:46:13.744] [DEBUG] szfcweb - Sleep: 4114 ms
+[2022-06-17T23:46:17.986] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-17T23:46:17.986] [DEBUG] szfcweb - Sleep: 3922 ms
+[2022-06-17T23:46:22.037] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-17T23:46:22.038] [DEBUG] szfcweb - Sleep: 4251 ms
+[2022-06-17T23:46:26.416] [DEBUG] szfcweb - [
+  [
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30229_MD004&SPJ_ID=b040951a-3028-4b95-b6a2-439e019d013e',
+      title: '6'
+    },
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30230_MD004&SPJ_ID=b040951a-3028-4b95-b6a2-439e019d013e',
+      title: '7'
+    },
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30228_MD004&SPJ_ID=b040951a-3028-4b95-b6a2-439e019d013e',
+      title: '3'
+    },
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30227_MD004&SPJ_ID=b040951a-3028-4b95-b6a2-439e019d013e',
+      title: '1'
+    }
+  ],
+  [
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30583_MD004&SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+      title: '15'
+    },
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30577_MD004&SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+      title: '9'
+    },
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30581_MD004&SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+      title: '13'
+    },
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30579_MD004&SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+      title: '10'
+    }
+  ],
+  [
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30576_MD004&SPJ_ID=4e5947bb-75a9-4a09-8167-291c7d16a3e2',
+      title: '8'
+    },
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30584_MD004&SPJ_ID=4e5947bb-75a9-4a09-8167-291c7d16a3e2',
+      title: '16'
+    },
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30580_MD004&SPJ_ID=4e5947bb-75a9-4a09-8167-291c7d16a3e2',
+      title: '12'
+    },
+    {
+      href: 'http://spf.szfcweb.com/szfcweb/(S(jlhcxjfyidyvighco2iu4r1u))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30582_MD004&SPJ_ID=4e5947bb-75a9-4a09-8167-291c7d16a3e2',
+      title: '14'
+    }
+  ]
+]
+[2022-06-17T23:47:30.906] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:47:30.909] [DEBUG] szfcweb - Sleep: 2669 ms
+[2022-06-17T23:47:33.706] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-17T23:47:33.707] [DEBUG] szfcweb - Sleep: 4969 ms
+[2022-06-17T23:47:38.793] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-17T23:47:38.793] [DEBUG] szfcweb - Sleep: 2073 ms
+[2022-06-17T23:47:40.992] [DEBUG] szfcweb - []
+[2022-06-17T23:48:01.244] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-17T23:48:01.246] [DEBUG] szfcweb - Sleep: 4231 ms
+[2022-06-17T23:48:05.609] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-17T23:48:05.610] [DEBUG] szfcweb - Sleep: 3906 ms
+[2022-06-17T23:48:09.647] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-17T23:48:09.648] [DEBUG] szfcweb - Sleep: 2090 ms
+[2022-06-17T23:48:11.855] [DEBUG] szfcweb - [
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30229_MD004&SPJ_ID=b040951a-3028-4b95-b6a2-439e019d013e',
+    title: '6'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30230_MD004&SPJ_ID=b040951a-3028-4b95-b6a2-439e019d013e',
+    title: '7'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30228_MD004&SPJ_ID=b040951a-3028-4b95-b6a2-439e019d013e',
+    title: '3'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30227_MD004&SPJ_ID=b040951a-3028-4b95-b6a2-439e019d013e',
+    title: '1'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30583_MD004&SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+    title: '15'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30577_MD004&SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+    title: '9'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30581_MD004&SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+    title: '13'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30579_MD004&SPJ_ID=c0976b7b-26eb-44dd-8670-3e82e4f0e897',
+    title: '10'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30576_MD004&SPJ_ID=4e5947bb-75a9-4a09-8167-291c7d16a3e2',
+    title: '8'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30584_MD004&SPJ_ID=4e5947bb-75a9-4a09-8167-291c7d16a3e2',
+    title: '16'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30580_MD004&SPJ_ID=4e5947bb-75a9-4a09-8167-291c7d16a3e2',
+    title: '12'
+  },
+  {
+    href: 'http://spf.szfcweb.com/szfcweb/(S(55cydtoakxw4yxofsiantc1k))/DataSerach/SaleInfoHouseShow.aspx?PBTAB_ID=30582_MD004&SPJ_ID=4e5947bb-75a9-4a09-8167-291c7d16a3e2',
+    title: '14'
+  }
+]
+[2022-06-18T23:05:50.081] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-18T23:05:50.082] [DEBUG] szfcweb - Sleep: 4549 ms
+[2022-06-18T23:05:54.780] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-18T23:05:54.780] [DEBUG] szfcweb - Sleep: 2991 ms
+[2022-06-18T23:05:57.887] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-18T23:05:57.887] [DEBUG] szfcweb - Sleep: 2130 ms
+[2022-06-18T23:06:00.127] [DEBUG] szfcweb - 查看楼栋 [6] 状态
+[2022-06-18T23:06:00.404] [DEBUG] szfcweb - 查看楼栋 [7] 状态
+[2022-06-18T23:08:18.802] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-18T23:08:18.804] [DEBUG] szfcweb - Sleep: 3998 ms
+[2022-06-18T23:08:22.914] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-18T23:08:22.914] [DEBUG] szfcweb - Sleep: 4921 ms
+[2022-06-18T23:08:27.943] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-18T23:08:27.943] [DEBUG] szfcweb - Sleep: 2856 ms
+[2022-06-18T23:08:30.968] [DEBUG] szfcweb - 查看楼栋 [6] 状态
+[2022-06-18T23:08:31.247] [DEBUG] szfcweb - Sleep: 3301 ms
+[2022-06-18T23:08:34.549] [DEBUG] szfcweb - 查看楼栋 [7] 状态
+[2022-06-18T23:08:34.822] [DEBUG] szfcweb - Sleep: 3884 ms
+[2022-06-18T23:08:38.706] [DEBUG] szfcweb - 查看楼栋 [3] 状态
+[2022-06-18T23:08:38.985] [DEBUG] szfcweb - Sleep: 2520 ms
+[2022-06-18T23:08:41.506] [DEBUG] szfcweb - 查看楼栋 [1] 状态
+[2022-06-18T23:08:41.781] [DEBUG] szfcweb - Sleep: 2381 ms
+[2022-06-18T23:08:44.162] [DEBUG] szfcweb - 查看楼栋 [15] 状态
+[2022-06-18T23:08:44.436] [DEBUG] szfcweb - Sleep: 3730 ms
+[2022-06-18T23:08:48.167] [DEBUG] szfcweb - 查看楼栋 [9] 状态
+[2022-06-18T23:08:48.447] [DEBUG] szfcweb - Sleep: 3280 ms
+[2022-06-18T23:08:51.727] [DEBUG] szfcweb - 查看楼栋 [13] 状态
+[2022-06-18T23:08:51.996] [DEBUG] szfcweb - Sleep: 3954 ms
+[2022-06-18T23:08:55.951] [DEBUG] szfcweb - 查看楼栋 [10] 状态
+[2022-06-18T23:08:56.245] [DEBUG] szfcweb - Sleep: 4611 ms
+[2022-06-18T23:09:00.857] [DEBUG] szfcweb - 查看楼栋 [8] 状态
+[2022-06-18T23:09:01.137] [DEBUG] szfcweb - Sleep: 2804 ms
+[2022-06-18T23:09:03.941] [DEBUG] szfcweb - 查看楼栋 [16] 状态
+[2022-06-18T23:09:04.239] [DEBUG] szfcweb - Sleep: 3068 ms
+[2022-06-18T23:09:07.307] [DEBUG] szfcweb - 查看楼栋 [12] 状态
+[2022-06-18T23:09:07.581] [DEBUG] szfcweb - Sleep: 4411 ms
+[2022-06-18T23:09:11.992] [DEBUG] szfcweb - 查看楼栋 [14] 状态
+[2022-06-18T23:09:12.285] [DEBUG] szfcweb - Sleep: 4847 ms
+[2022-06-18T23:12:47.849] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-06-18T23:12:47.850] [DEBUG] szfcweb - Sleep: 2693 ms
+[2022-06-18T23:12:50.673] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-06-18T23:12:50.674] [DEBUG] szfcweb - Sleep: 4885 ms
+[2022-06-18T23:12:55.658] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-06-18T23:12:55.659] [DEBUG] szfcweb - Sleep: 4409 ms
+[2022-06-18T23:13:00.259] [DEBUG] szfcweb - 查看楼栋 [6] 状态
+[2022-06-18T23:13:01.550] [DEBUG] szfcweb - 查看楼栋 [7] 状态
+[2022-06-18T23:13:02.802] [DEBUG] szfcweb - 查看楼栋 [3] 状态
+[2022-06-18T23:13:04.063] [DEBUG] szfcweb - 查看楼栋 [1] 状态
+[2022-06-18T23:13:05.391] [DEBUG] szfcweb - 查看楼栋 [15] 状态
+[2022-06-18T23:13:06.669] [DEBUG] szfcweb - 查看楼栋 [9] 状态
+[2022-06-18T23:13:07.980] [DEBUG] szfcweb - 查看楼栋 [13] 状态
+[2022-06-18T23:13:09.235] [DEBUG] szfcweb - 查看楼栋 [10] 状态
+[2022-06-18T23:13:10.495] [DEBUG] szfcweb - 查看楼栋 [8] 状态
+[2022-06-18T23:13:11.770] [DEBUG] szfcweb - 查看楼栋 [16] 状态
+[2022-06-18T23:13:13.041] [DEBUG] szfcweb - 查看楼栋 [12] 状态
+[2022-06-18T23:13:14.328] [DEBUG] szfcweb - 查看楼栋 [14] 状态
+[2022-07-17T22:50:49.355] [DEBUG] szfcweb - 开始访问 春风南岸花园一期
+[2022-07-17T22:50:49.356] [DEBUG] szfcweb - Sleep: 3793 ms
+[2022-07-17T22:50:53.356] [DEBUG] szfcweb - 开始访问 春风南岸花园三期
+[2022-07-17T22:50:53.356] [DEBUG] szfcweb - Sleep: 4723 ms
+[2022-07-17T22:50:58.303] [DEBUG] szfcweb - 开始访问 春风南岸花园二期
+[2022-07-17T22:50:58.304] [DEBUG] szfcweb - Sleep: 2996 ms
+[2022-07-17T22:51:01.511] [DEBUG] szfcweb - 查看楼栋 [6] 状态
+[2022-07-17T22:51:02.818] [DEBUG] szfcweb - 查看楼栋 [1] 状态
+[2022-07-17T22:51:04.238] [DEBUG] szfcweb - 查看楼栋 [7] 状态
+[2022-07-17T22:51:05.614] [DEBUG] szfcweb - 查看楼栋 [3] 状态
+[2022-07-17T22:51:07.039] [DEBUG] szfcweb - 查看楼栋 [15] 状态
+[2022-07-17T22:51:08.498] [DEBUG] szfcweb - 查看楼栋 [9] 状态
+[2022-07-17T22:51:09.926] [DEBUG] szfcweb - 查看楼栋 [13] 状态
+[2022-07-17T22:51:11.359] [DEBUG] szfcweb - 查看楼栋 [10] 状态
+[2022-07-17T22:51:12.811] [DEBUG] szfcweb - 查看楼栋 [8] 状态
+[2022-07-17T22:51:14.380] [DEBUG] szfcweb - 查看楼栋 [16] 状态
+[2022-07-17T22:51:15.687] [DEBUG] szfcweb - 查看楼栋 [12] 状态
+[2022-07-17T22:51:17.286] [DEBUG] szfcweb - 查看楼栋 [14] 状态
