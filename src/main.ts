@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import logger from './lib/logger';
 import utils from './lib/utils';
 import moment from 'moment';
-import Jimp from 'jimp';
+import canvas from 'canvas';
 import fs from 'fs';
 
 const now = moment();
@@ -12,7 +12,7 @@ fs.mkdirSync(FOLDER);
 
 (async () => {
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
   });
   const page = await browser.newPage();
   await page.setViewport({
@@ -70,7 +70,25 @@ fs.mkdirSync(FOLDER);
       })
     ]);
 
-    page.screenshot({path: `${FOLDER}/${building.title}.png`});
+    let srcImagePath = `${FOLDER}/${building.title}.png`;
+    let maskedImagePath = `${FOLDER}/masked_${building.title}.png`;
+    await page.screenshot({path: srcImagePath});
+    
+    let image = await canvas.loadImage(fs.readFileSync(srcImagePath));
+    const srcCanvas = canvas.createCanvas(image.width, image.height);
+    const srcCtx = srcCanvas.getContext('2d');
+    srcCtx.drawImage(image, 0, 0, image.width, image.height);
+    srcCtx.font = '30px Sans';
+    srcCtx.fillStyle = '#333333';
+    srcCtx.fillText(`#${building.title}号楼 ${now.format('YYYY-MM-DD')}`, 20, 40);
+    srcCtx.font = '20px Sans';
+    srcCtx.fillText('公众号: 这里是春风南岸', 20, 70);
+  
+    const buffer = srcCanvas.toBuffer();
+    fs.writeFileSync(maskedImagePath, buffer);
+
     await utils.sleepAsync(1000);
   }
+
+  browser.close();
 })();

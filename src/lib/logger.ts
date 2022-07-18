@@ -22,7 +22,7 @@ log4js.configure({
     }
   },
   categories: {
-    default: { appenders: ['console'], level: 'info' },
+    default: { appenders: ['console'], level: 'debug' },
     'szfcweb': { appenders: ['file', 'infoFilter'], level: 'debug' }
   }
 });
