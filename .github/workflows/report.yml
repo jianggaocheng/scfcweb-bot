@@ -19,9 +19,6 @@ jobs:
         run: tsc
       - name: check house status
         run: DEBUG=true node dist/main.js
-  commit-changes:
-    runs-on: ubuntu-latest
-    steps:
       - name: commit changes
         run: |
           if [ -n "$(git status -s)" ];then
@@ -35,11 +32,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-  upload-artifacts:
-    runs-on: ubuntu-latest
-    steps:
       - uses: actions/upload-artifact@v3
         with:
           name: report
           path: screenshot/$(date +'%Y-%m-%d')
-
