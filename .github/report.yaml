@@ -1,0 +1,45 @@
+name: "Spring Breeze Report"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 15 * * *"
+
+jobs:
+  check-house-status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: install packages 
+        run: npm install
+      - name: typescript compile 
+        run: tsc
+      - name: check house status
+        run: DEBUG=true node dist/main.js
+  commit-changes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: commit changes
+        run: |
+          if [ -n "$(git status -s)" ];then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add --all 
+            git commit -m "Update data" -a
+          fi
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+  upload-artifacts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/upload-artifact@v3
+        with:
+          name: report
+          path: screenshot/$(date +'%Y-%m-%d')
+
