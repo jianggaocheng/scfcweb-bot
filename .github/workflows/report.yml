@@ -9,32 +9,32 @@ jobs:
   check-house-status:
     runs-on: ubuntu-latest
     steps:
-      - name: chinese support
-        run: sudo apt-get install fonts-wqy-zenhei
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '16'
-      - name: install packages 
-        run: npm install
-      - name: typescript compile 
-        run: tsc
-      - name: check house status
-        run: DEBUG=true node dist/main.js
-      - name: commit changes
-        run: |
-          if [ -n "$(git status -s)" ];then
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
-            git add --all 
-            git commit -m "Update data" -a
-          fi
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+      # - name: chinese support
+      #   run: sudo apt-get install fonts-wqy-zenhei
+      # - uses: actions/checkout@v2
+      # - uses: actions/setup-node@v1
+      #   with:
+      #     node-version: '16'
+      # - name: install packages 
+      #   run: npm install
+      # - name: typescript compile 
+      #   run: tsc
+      # - name: check house status
+      #   run: DEBUG=true node dist/main.js
+      # - name: commit changes
+      #   run: |
+      #     if [ -n "$(git status -s)" ];then
+      #       git config --local user.email "action@github.com"
+      #       git config --local user.name "GitHub Action"
+      #       git add --all 
+      #       git commit -m "Update data" -a
+      #     fi
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: ${{ github.ref }}
       - uses: actions/upload-artifact@v3
         with:
           name: report
-          path: screenshot/$(date +'%Y-%m-%d')
+          path: screenshot/${{ date + '%Y-%m-%d' }}
