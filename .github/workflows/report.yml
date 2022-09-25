@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: chinese support
-        run: apt-get install fonts-wqy-zenhei
+        run: sudo apt-get install fonts-wqy-zenhei
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
