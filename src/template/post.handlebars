@@ -1,0 +1,42 @@
+<style>
+.build_info {
+  font-size: 15px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.report_detail {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.report_detail .project-title {
+  font-weight: bolder;
+}
+</style>
+<div class="build_info">
+  <div>采集时间: {{ reportDate }}</div>
+  <div>当前版本: v1.0 </div>
+</div>
+<br>
+<br>
+<center class="report_detail">
+  {{#each projectList}}
+    <b class="project-title">{{ project }}</b>
+    <div>总共: [{{ total }}]</div>
+    <div>已售出: [{{ sold }}]</div>
+    <div>销售率: [{{ ratio }}]</div>
+    {{#each buildingList}}
+    <div>{{ building }}# {{unsell}}/{{selling}}/{{sold}}/{{locked}}/{{total}}</div>
+    {{/each}}
+    <br>
+  {{/each}}
+  <br>
+  <div>合计总共: [{{ total }}]</div> 
+  <div>已售出: [{{ sold }}]</div> 
+  <div>销售率: [{{ ratio }}]</div> 
+  <br>
+  <br>
+  <br>
+  {{#each uploadImgList}}
+  <img src="{{this}}" />
+  {{/each}}
+</center>
