@@ -23,6 +23,7 @@ const TEMPLATE = Handlebars.compile(fs.readFileSync(path.resolve(__dirname, 'tem
 (async () => {
   const browser = await puppeteer.launch({
     headless: true,
+    args: ['--no-sandbox']
   });
   const page = await browser.newPage();
   await page.setViewport({
