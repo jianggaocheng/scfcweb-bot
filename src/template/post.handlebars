@@ -13,26 +13,26 @@
 }
 </style>
 <div class="build_info">
-  <div>采集时间: {{ reportDate }}</div>
-  <div>当前版本: v1.0 </div>
+  采集时间: {{ reportDate }}<br>
+  当前版本: v1.0 <br>
 </div>
 <br>
 <br>
 <center class="report_detail">
   {{#each projectList}}
-    <b class="project-title">{{ project }}</b>
-    <div>总共: [{{ total }}]</div>
-    <div>已售出: [{{ sold }}]</div>
-    <div>销售率: [{{ ratio }}]</div>
+    <b class="project-title">{{ project }}</b><br>
+    总共: [{{ total }}]<br>
+    已售出: [{{ sold }}]<br>
+    销售率: [{{ ratio }}]<br>
     {{#each buildingList}}
-    <div>{{ building }}# {{unsell}}/{{selling}}/{{sold}}/{{locked}}/{{total}}</div>
+    {{ building }}# {{unsell}}/{{selling}}/{{sold}}/{{locked}}/{{total}}<br>
     {{/each}}
     <br>
   {{/each}}
   <br>
-  <div>合计总共: [{{ total }}]</div> 
-  <div>已售出: [{{ sold }}]</div> 
-  <div>销售率: [{{ ratio }}]</div> 
+  合计总共: [{{ total }}]<br>
+  已售出: [{{ sold }}]<br>
+  销售率: [{{ ratio }}]<br>
   <br>
   <br>
   <br>
