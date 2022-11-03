@@ -21,7 +21,9 @@ const maskedFileList = _.sortBy(_.filter(fileList, (i) => _.includes(i, 'masked'
 const mpApi = new MpApi('wxce11de71b82a9f8b', '5a8eb74b02a8951fa7484b981966553b');
 const TEMPLATE = Handlebars.compile(fs.readFileSync(path.resolve(__dirname, 'template/post.handlebars')).toString());
 
-(async () => {
+cron.schedule('0 22 * * *', async () => {
+  logger.info(`Scheduled job start`);
+
   const browser = await puppeteer.launch({
     headless: true,
     args: ['--no-sandbox']
@@ -164,4 +166,6 @@ const TEMPLATE = Handlebars.compile(fs.readFileSync(path.resolve(__dirname, 'tem
 
   await mpApi.postDraft(`春风南岸花园网签日报 ${now.format('YYMMDD')}`, TEMPLATE(reportModel));
   browser.close();
-})();
+}, {
+  scheduled: true,
+});
