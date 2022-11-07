@@ -10,19 +10,17 @@ import path from 'path';
 import _ from 'lodash';
 import MpApi from './lib/mp-api';
 
-const now = moment();
-const FOLDER = `screenshot/` + now.format('YYYY-MM-DD');
-fs.rmSync(FOLDER, {recursive: true, force: true});
-fs.mkdirSync(FOLDER);
-
-const fileList = fs.readdirSync(FOLDER);
-const maskedFileList = _.sortBy(_.filter(fileList, (i) => _.includes(i, 'masked')), (i) => _.toInteger(i.match(/\d+/)[0]));
-
-const mpApi = new MpApi('wxce11de71b82a9f8b', '5a8eb74b02a8951fa7484b981966553b');
-const TEMPLATE = Handlebars.compile(fs.readFileSync(path.resolve(__dirname, 'template/post.handlebars')).toString());
 
 cron.schedule('0 22 * * *', async () => {
   logger.info(`Scheduled job start`);
+
+  const now = moment();
+  const FOLDER = `screenshot/` + now.format('YYYY-MM-DD');
+  fs.rmSync(FOLDER, {recursive: true, force: true});
+  fs.mkdirSync(FOLDER);
+
+  const mpApi = new MpApi('wxce11de71b82a9f8b', '5a8eb74b02a8951fa7484b981966553b');
+  const TEMPLATE = Handlebars.compile(fs.readFileSync(path.resolve(__dirname, 'template/post.handlebars')).toString());
 
   const browser = await puppeteer.launch({
     headless: true,
