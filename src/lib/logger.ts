@@ -1,6 +1,6 @@
 import log4js from 'log4js';
 
-let logLevel = !process.env.DEBUG ? 'info' : 'debug';
+let logLevel = !process.env.DEBUG ? 'debug' : 'debug';
 console.log(`LogLevel: ${logLevel}`);
 
 log4js.configure({

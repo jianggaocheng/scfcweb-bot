@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf dist",
+    "copy-files": "mkdir dist/template dist/data && cp src/template/* dist/template/ && cp src/data/* dist/data/ && cp src/font.ttf dist",
+    "build": "npm run clean && tsc && npm run copy-files",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
