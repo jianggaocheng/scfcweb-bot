@@ -11,7 +11,8 @@ import _ from 'lodash';
 import MpApi from './lib/mp-api';
 
 const now = moment();
-const FOLDER = `screenshot/` + now.format('YYYY-MM-DD');
+
+const FOLDER = path.resolve(__dirname, '..', 'screenshot',  now.format('YYYY-MM-DD'));
 fs.rmSync(FOLDER, {recursive: true, force: true});
 fs.mkdirSync(FOLDER);
 

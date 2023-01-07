@@ -11,11 +11,11 @@ import _ from 'lodash';
 import MpApi from './lib/mp-api';
 
 
-cron.schedule('0 22 * * *', async () => {
+cron.schedule('19 23 * * *', async () => {
   logger.info(`Scheduled job start`);
 
   const now = moment();
-  const FOLDER = `screenshot/` + now.format('YYYY-MM-DD');
+  const FOLDER = path.resolve(__dirname, '..', 'screenshot',  now.format('YYYY-MM-DD'));
   fs.rmSync(FOLDER, {recursive: true, force: true});
   fs.mkdirSync(FOLDER);
 
